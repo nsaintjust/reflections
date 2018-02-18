@@ -24,6 +24,9 @@ Diagrams help you to visualize by showing all the branches in the log. They show
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+The result of merging two branches together is that the resulting commit contains the common files but also what has been added or deleted by the users. To find out what git keeps, it looks at the parent commit of both branches and removes what has been deleted or adds what has been added since then. When merging you often use the expression "merge the coin branch into the master branch"
+We represent the merge in the diagram the way we do because once merged, the commit has two parents and the commits from both branches are searchable from that commit. Thus it is useful to delete a branch once merged since it only deletes the label and keeps the commit.
+The commits from both branch are then sorted in chronological order.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
