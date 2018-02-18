@@ -30,3 +30,6 @@ The commits from both branch are then sorted in chronological order.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+The pros of Git's automatic merging is that it takes care of a lot of changes that don't need to be manually checked each time. It is conservative in the sense that if any of the lines that have been changed from the parent then it will let us know. This takes off a lot of overhead in the merge process.
+The disadvantage of Git's automatic merging is that it can't know what the content of the files really indicates too. It just knows that the same sections have been modified therefore it can't judge if we want to keep or discard the changes.
+Whenever a merge conflict does happen it is up to us to find out what version we woud like to keep.
