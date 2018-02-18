@@ -12,6 +12,7 @@ repository.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+You can use git diff to compare between the working directory and the staging area, as it contains a copy of the latest commit from the repository. Any uncommitted changes will appear in the output of the diff command. Once you've added a file to the staging aread, it will track the changes between the working directory and the staging area.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
