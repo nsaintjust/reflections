@@ -16,6 +16,7 @@ You can use git diff to compare between the working directory and the staging ar
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+Branches helps staying organized by allowing to experiment with new features without touching the previous versions. You can keep the changes or discard them in the future once you've made all the changes. By having several branches, you keep the master branch clean and changed it only if necessary.
 
 How do the diagrams help you visualize the branch structure?
 
