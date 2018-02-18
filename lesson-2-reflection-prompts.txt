@@ -19,6 +19,8 @@ organized? How would branches help?
 Branches helps staying organized by allowing to experiment with new features without touching the previous versions. You can keep the changes or discard them in the future once you've made all the changes. By having several branches, you keep the master branch clean and changed it only if necessary.
 
 How do the diagrams help you visualize the branch structure?
+Diagrams help you to visualize by showing all the branches in the log. They show you what branches were created and when. By drawing lines, you can easily see what commits are reachable by a branch and which ones are not.
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
