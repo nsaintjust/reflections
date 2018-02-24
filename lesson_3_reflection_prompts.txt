@@ -6,6 +6,7 @@ You can also work on the same project from different computers.
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
+You don't want Git to stay automatically up-to-date with the remote repository because you might not necessarily want to see all the changes from the remote in your local. This would probably be the case if multiple people were working on the same branch.
 
 
 Describe the differences between forks, clones, and branches.  When would you
