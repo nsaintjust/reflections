@@ -11,6 +11,11 @@ You don't want Git to stay automatically up-to-date with the remote repository b
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
+Forks exist only in Github: they are used to copy a repository from another user and contribute to the project without
+changing their initial work. This also helps credit them. We fork instead of : cloning then setting up a remote then pushing
+the clone to the remote.
+Forking then pulling as the remote is already set up.
+Branches exists both locally and remotely. They are multiple versions of one repository.
 
 
 
