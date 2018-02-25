@@ -21,8 +21,7 @@ Branches exists both locally and remotely. They are multiple versions of one rep
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
-
-
+The benefit is having the latest changes done to the remote that you can work with when offline. Having the latest copy means that when making a pull/push request, you will only have to merge the latest changes and not the whole branch which would be a lot of work.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
