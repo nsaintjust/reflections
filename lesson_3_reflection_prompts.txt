@@ -25,6 +25,8 @@ The benefit is having the latest changes done to the remote that you can work wi
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
+Collaborating would be done centrally with a shared drive or cloud service. It would be easier in the sense that you would only be able to modify one file at a time. Without Git/GitHub you would not have the overhead of file management so development could be quick. However without git/github this would be very difficult to track given a set of files that work together because multiple people could change the files at different times. Working with a large number of people on one file also becomes difficult. Finally git/github makes it easier to test changes on a seperate branch or revert to an old version of the file if
+need be.
 
 
 
